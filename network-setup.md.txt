@@ -1,0 +1,39 @@
+Router
+Model: 1941 Router
+IP: 168.90.0.1
+
+Switch0 
+Model: 2960-24TT Switch
+
+PC0
+Model: PC-PT 
+IP: 168.90.0.2
+
+PC1
+Model: PC-PT 
+IP: 168.90.0.3
+
+Laptom0
+Model: Laptop-PT 
+IP: 168.90.0.4
+
+Server0
+Model: Server-PT
+IP: 168.90.0.5
+
+Switch1 
+Model: 2960-24TT
+
+Server1
+Model: Server-PT  
+IP: 210.3.14.3
+
+Server2
+Model: Server-PT 
+IP: 210.3.14.4
+
+PC2
+Model: PC-PT 
+IP: 210.3.14.2
+
+
