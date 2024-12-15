@@ -36,4 +36,15 @@ PC2
 Model: PC-PT 
 IP: 210.3.14.2
 
+PC3
+Model: PC-PT 
+IP: 168.90.0.6
+
+PC4
+Model: PC-PT 
+IP: 210.3.14.5
+
+
+
+
 
