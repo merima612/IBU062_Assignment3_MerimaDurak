@@ -43,6 +43,26 @@ IP: 168.90.0.6
 PC4
 Model: PC-PT 
 IP: 210.3.14.5
+Open CLI for the router and enter this:
+enable
+configure terminal
+Than Create a DHCP pool:
+First switch:
+ip dhcp pool SWITCH1
+network 168.90.0.0 255.255.0.0
+default-router 168.90.0.1
+dns-server 8.8.8.8
+second switch:
+ip dhcp pool SWITCH2
+network 210.3.14.0 255.255.255.0
+default-router 210.3.14.1
+dns-server 8.8.8.8
+Then exclude specific IP address:
+ip dhcp excluded-address 168.90.0.1 168.90.0.10
+ip dhcp excluded-address 210.3.14.1 210.3.14.10
+Verify the DHCP configuration:
+show running-config | section dhcp
+and than TEST!
 
 
 
